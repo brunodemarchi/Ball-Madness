@@ -1,0 +1,128 @@
+/* HTML AND CSS ARE A BIT MESSY, I'M SORRY.*/
+
+body {
+	background: #000;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+canvas {
+	background: #ddd;
+	display: block;
+	margin: 100px auto 0;
+}
+
+span {
+	color: #B20000;
+}
+#interface {
+	position: absolute;
+	left: 50%;
+	width: 600px;
+	height: 400px;
+	margin-left: -300px;
+	display: block;
+}
+
+#interface h1 {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+
+#interface h2 {
+	font-family: sans-serif;
+	text-align: right;
+	font-size: 15px;
+}
+
+#interface p {
+	font-weight: bold;
+	margin-top: 190px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#game {
+	position: absolute;
+	left: 50%;
+	width: 600px;
+	height: 400px;
+	margin-left: -300px;
+	display: block;
+}
+
+#game p {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+#game .timer {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#game .calories {
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#game #phrases {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+
+#end {
+	font-family: sans-serif;
+	position: absolute;
+	left: 50%;
+	width: 600px;
+	height: 400px;
+	margin-left: -300px;
+	display: block;
+}
+
+#end h1 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#end h2 {
+	text-align: center;
+}
+
+#end h3 {
+	margin-top: 10px;
+	float: right;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: right;
+	font-size: 14px;
+	margin-right: 10px;
+}
+#end h4 {
+	margin-top: 10px;
+	float: left;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: left;
+	font-size: 14px;
+	margin-left: 10px;
+}
+#end p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+a{
+	text-decoration: none;
+	color: #4D7AFF;
+}
