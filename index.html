@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- HTML AND CSS ARE A BIT MESSY. SORRY. -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ball Madness - By @brunomarchi_js</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="interface">
+	<h1>Ball <span>Madness</span>!</h1>
+
+
+	<p>PRESS <span>ENTER</span><br>
+	<span>WASD</span> or <span>arrow keys</span> to move <br>
+	Eat as much as you can, just be careful not to <span>lose control</span> of yourself.</p>
+
+</div>
+
+<div id="game" style="display:none">
+	<p class="timer">Time: <span id="timerScore"></span> seconds!</p>
+	<p class="calories">Calories: <span id="caloriesScore">0</span> calories!</p>
+	<p id="phrases"></p>
+</div>
+
+<div id="end" style="display:none">
+	<h1>You died ):</h1>
+	<p>You survived for <span id="finalTime"></span> seconds! <br>
+	You had <span id="finalCalories"></span> calories! <br>
+	Press "<span>R</span>" to retry!
+	</p>
+	<h2><span>The less you eat, the more you need.</span></h2>
+	<h3>Created by <a href="https://twitter.com/brunomarchi_js">@brunomarchi_js</a></h3>
+	<h4>Special thanks to: <br>
+	<a href="https://twitter.com/oneliojr">@oneliojr</a>, my brother, for helping me with coding tips <br>
+Gabriela, my girlfriend, for drawing all those delicious food.</h4>
+</div>
+
+<script src="script/ball-madness.js"></script>
+
+</body>
+</html>
